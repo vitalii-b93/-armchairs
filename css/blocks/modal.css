@@ -105,7 +105,7 @@
 @media(max-width: 375px) {
 
 	.form-modal {
-		top: 10%;
+		top: 50px;
 		left: 10%;
 	}
 
