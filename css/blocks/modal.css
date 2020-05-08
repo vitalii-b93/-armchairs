@@ -105,10 +105,12 @@
 @media(max-width: 375px) {
 
 	.form-modal {
+		top: 10%;
 		left: 10%;
 	}
 
 	.modal-thank {
+		top: 63%;
 		left: 10%;
 	}
 }
