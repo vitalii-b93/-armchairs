@@ -1,0 +1,77 @@
+@import url(blocks/header.css);
+@import url(blocks/one.css);
+@import url(blocks/two.css);
+@import url(blocks/three.css);
+@import url(blocks/four.css);
+@import url(blocks/five.css);
+@import url(blocks/six.css);
+@import url(blocks/seven.css);
+@import url(blocks/eight.css);
+@import url(blocks/maps.css);
+@import url(blocks/footer.css);
+@import url(blocks/modal.css);
+
+@font-face {
+	font-family: MuseoSansCyrl300;
+	src: url(../fonts/MuseoSansCyrl.otf);
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: MuseoSansCyrl400;
+	src: url(../fonts/MuseoSansCyrl.otf);
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: MuseoSansCyrl500;
+	src: url(../fonts/MuseoSansCyrl.otf);
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: MuseoSansCyrl700;
+	src: url(../fonts/MuseoSansCyrl.otf);
+	font-style: normal;
+	font-weight: 700;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 100%;
+	width: 960px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: MuseoSansCyrl700;
+	font-size: 2.25em;
+	color: #535353;
+	text-align: center;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #0a2631;
+	opacity: 0.8;
+	z-index: 1;
+	display: none; 
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+.arrow {
+	display: none;
+}
+

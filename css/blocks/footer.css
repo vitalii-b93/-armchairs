@@ -1,0 +1,30 @@
+.footer_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.footer_content a {
+	font-family: MuseoSansCyrl300;
+	font-size: 0.875em;
+	color: #64a8bf;
+}
+
+.footer_inn p {
+	font-family: MuseoSansCyrl300;
+	font-size: 0.875em;
+	color: #535353;
+}
+
+@media(max-width: 375px) {
+
+	.footer_content {
+		flex-direction: column;
+	}
+
+	.footer_content a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}

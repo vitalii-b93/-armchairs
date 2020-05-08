@@ -1,0 +1,65 @@
+.maps {
+	padding: 50px 0;
+	background-color: #ecf3f8;
+}
+
+.map {
+	border-radius: 15px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.content_text {
+	text-align: center;
+	width: 275px;
+}
+
+.content_text img {
+	padding-top: 20px;
+}
+
+.content_text p {
+	font-family: MuseoSansCyrl300;
+	font-size: 1em;
+	color: #535353;
+	padding: 20px 0;
+}
+
+.content_text h4 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.25em;
+	color: #64a8bf;
+	padding-bottom: 30px;
+}
+
+.content_text button {
+	font-family: MuseoSansCyrl700;
+	font-size: 0.875em;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 12px 0;
+	border-radius: 20px;
+	background-color: #64a8bf;
+	color: #fff;
+}
+
+@media(max-width: 576px) {
+
+	.content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.content iframe {
+		width: 320px;
+		height: 200px;
+	}
+}
+
+@media(max-width: 515px) {
+
+}
+

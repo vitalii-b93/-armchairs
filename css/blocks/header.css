@@ -1,0 +1,29 @@
+							/*HEADER*/
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.number p {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.5em;
+	color: #535353;
+	line-height: 42px;
+}
+
+.number a {
+	font-family: MuseoSansCyrl300;
+	font-size: 0.875em;
+	padding-left: 30px;
+	color: #64a8bf;
+}
+
+@media(max-width: 992px) {
+	.header-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

@@ -1,0 +1,117 @@
+.seven {
+	position: relative;
+	height: 348px;
+	background-image: url(../../img/seven_bgc.png);
+	background-position: center center;
+}
+
+.discount {
+	position: absolute;
+	top: 80px;
+	left: 30%;
+	width: 160px;
+	text-align: center;
+	padding: 40px 0;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.old_price1 {
+	font-family: MuseoSansCyrl300;
+	font-size: 0.9em;
+	text-decoration: line-through;
+	line-height: 37.6px;
+}
+
+.old_price1::after {
+	content: '';
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	background: #535353;
+	left: 17px;
+	top: 52%;
+}
+
+.new_price1 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.5em;
+	color: #d35151;
+	line-height: 37.6px;
+}
+
+.discount h4 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.0625em;
+	color: #68b0c9;
+}
+
+.seven_content {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 60px;
+	margin-right: 70px;
+}
+
+.seven_right {
+	width: 270px;
+	text-align: center;
+}
+
+.seven_right h4 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.25em;
+	color: #535353;
+	width: 235px;
+	margin: 0 auto;
+}
+
+.seven_right p {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.25em;
+	color: #68b0c9;
+	background-color: #fff;
+	width: 235px;
+	margin: 0 auto;
+}
+
+.seven_right input {
+	font-family: MuseoSansCyrl500;
+	font-size: 0.8125em;
+	color: #9c9c9c; 
+	width: 90%;
+	padding: 10px;
+	border-radius: 15px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.seven_right button {
+	font-family: MuseoSansCyrl700;
+	font-size: 0.875em;
+	width: 100%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #68b0c9;
+	margin-top: 30px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.seven_arrow {
+	position: absolute;
+	top: 120px;
+	right: 110px;
+}
+
+@media(max-width: 576px) {
+	
+	.discount {
+		display: none;
+	}
+
+	.seven_content {
+		justify-content: center;
+		margin-right: 0;
+	}
+}

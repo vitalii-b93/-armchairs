@@ -1,0 +1,144 @@
+.three {
+	position: relative;
+	background-image: url(../../img/three_bcg.png);
+	background-position: center center;
+	height: 490px;
+}
+
+.price {
+	position: absolute;
+	top: 190px;
+	left: 40%;
+	width: 155px;
+	text-align: center;
+	padding: 35px 0;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.old_price {
+	font-family: MuseoSansCyrl300;
+	font-size: 1.125em;
+	text-decoration: line-through;
+	line-height: 47px;
+}
+
+.old_price::after {
+	content: '';
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	background: #535353;
+	left: 17px;
+	top: 47%;
+}
+
+
+.new_price {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.875em;
+	color: #d35151;
+	line-height: 47px;
+}
+
+.three_content {
+	position: absolute;
+	top: 65px;
+	right: 190px;
+	width: 350px;
+}
+
+.three_content h2 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.three_content span {
+	font-family: MuseoSansCyrl700;
+	font-size: 2.1em;
+}
+
+.three_content p {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.25em;
+	color: #68b0c9;
+	text-align: center;
+}
+
+.stock {
+	width: 275px;
+	height: 200px;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.stock_date {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.stock_date p {
+	font-family: MuseoSansCyrl700;
+	font-size: 0.875em;
+	color: #ba6c6c;
+	width: 70px;
+	text-align: left;
+}
+
+.stock button {
+	font-family: MuseoSansCyrl700;
+	font-size: 1em;
+	width: 200px;
+	padding: 15px 0;
+	background-color: #68b0c9;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 20px;
+	margin: 40px 0 0 35px;
+}
+
+.three_arrow {
+	position: absolute;
+	bottom: 50px;
+	left: 45%;
+}
+
+@media(max-width: 992px) {
+
+	.three_content {
+		right: 50px;
+	}
+}
+
+@media(max-width: 768px) {
+
+	.price {
+		left: 20%;
+	}
+}
+
+@media(max-width: 576px) {
+
+	.price {
+		display: none;
+	}
+
+	.three_content {
+		left: 20%;
+	}
+
+}
+
+@media(max-width: 375px) {
+
+	.three_content {
+		left: 5%;
+	}
+}

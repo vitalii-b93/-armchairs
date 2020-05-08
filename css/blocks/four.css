@@ -1,0 +1,44 @@
+.four_content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.four_item {
+	background-image: url(../../img/four_icon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 94px;
+	width: 150px;
+	margin: 70px 0 90px 0;
+}
+
+.four_item h3 {
+	font-family: MuseoSansCyrl700;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 23px;
+	color: #68b0c9;
+}
+
+.four_item p {
+	font-family: MuseoSansCyrl500;
+	font-size: 1.125em;
+	text-align: center;
+	padding-top: 20px;
+	color: #535353;
+}
+
+@media(max-width: 576px) {
+
+	.four_content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	@media(max-width: 375px) {
+		.four_item {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+	}
+}

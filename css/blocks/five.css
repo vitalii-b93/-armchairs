@@ -1,0 +1,72 @@
+.five {
+	background-color: #f8fbfc;
+	padding-top: 80px;
+}
+
+.five h2 {
+	margin-bottom: 80px;
+}
+
+.five_content {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 60px;
+}
+
+.five_text {
+	width: 390px;
+}
+
+.five_icon_text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px
+}
+
+.five_icon_text h3 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.375em;
+	color: #68b0c9;
+	margin-left: 25px;
+}
+
+.five_text p {
+	font-family: MuseoSansCyrl500;
+	font-size: 1.125em;
+	color: #323232;
+	margin-top: 20px;
+}
+
+@media(max-width: 576px) {
+	
+	.five_content {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	
+}
+
+@media(max-width: 375px) {
+
+	.five_icon_text h3 {
+		font-size: 0.9em;
+		padding-left: 10px;
+	}
+
+	.five_icon_text img {
+		padding-left: 20px;
+	}
+
+	.five_content img {
+		padding-top: 30px;
+	}
+
+	.five_content p {
+		font-size: 0.7em;
+		width: 350px;
+		text-align: center;
+		padding-left: 20px;
+	}
+}
+

@@ -1,0 +1,97 @@
+.two {
+	position: relative;
+	margin: 100px 0;
+}
+
+.two_content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 150px;
+	padding: 0 50px;
+}
+
+.two_content-text h3 {
+	font-family: MuseoSansCyrl700;
+	font-size: 1.875em;
+	color: #68b0c9;
+	width: 410px;
+}
+
+.two_content-text p {
+	font-family: MuseoSansCyrl300;
+	font-size: 1.125em;
+	width: 410px;
+	font-weight: 300;
+	color: #535353;
+	margin-top: 30px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.arrow_img1 {
+	position: absolute;
+	top: 160px;
+	left: 43%;
+}
+
+.arrow_img2 {
+	position: absolute;
+	top: 570px;
+	left: 37%;
+}
+
+.arrow_img3 {
+	position: absolute;
+	bottom: 290px;
+	left: 43%;
+}
+
+@media(max-width: 576px) {
+
+	.two_content {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.text-right {
+		text-align: center;
+		padding-top: 20px;
+		
+	}
+
+	.two_content img {
+		padding-top: 20px;
+	}
+
+	.media {
+		margin-top: 50px;
+		flex-direction: column-reverse;
+	}
+
+	.two h2 {
+		font-size: 1.4em;
+	}
+}
+
+@media(max-width: 375px) {
+
+	.two_content-text {
+		
+	}
+
+	.two_content-text h3 {
+		font-size: 1.3em;
+		width: 350px;
+	}
+
+	.two_content-text p {
+		font-size: 0.875em;
+		width: 350px;
+	}
+
+}
