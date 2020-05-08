@@ -27,3 +27,12 @@
 		padding-right: 20px;
 	}
 }
+
+@media(max-width: 375px) {
+	.header-container {
+		flex-direction: column;
+	}
+	.number p {
+		padding-top: 20px;
+	}
+}
