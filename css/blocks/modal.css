@@ -102,6 +102,19 @@
 	padding-top: 20px;
 }
 
+@media(max-width: 576px) {
+
+	.form-modal {
+		top: 50px;
+		left: 10%;
+	}
+
+	.modal-thank {
+		top: 63%;
+		left: 10%;
+	}
+}
+
 @media(max-width: 375px) {
 
 	.form-modal {
