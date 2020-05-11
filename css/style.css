@@ -71,7 +71,9 @@ h2 {
 	overflow: hidden;
 }
 
-.arrow {
-	display: none;
+@media(max-width: 850px) {
+	.arrow {
+		display: none;
+	}
 }
 
