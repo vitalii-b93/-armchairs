@@ -17,8 +17,7 @@
 	color: #535353;
 }
 
-@media(max-width: 375px) {
-
+@media(max-width: 515px) {
 	.footer_content {
 		flex-direction: column;
 	}

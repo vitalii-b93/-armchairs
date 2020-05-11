@@ -131,14 +131,26 @@
 	}
 
 	.three_content {
-		left: 20%;
+		position: unset;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
 	}
 
 }
 
 @media(max-width: 375px) {
 
+	.three_content h2 {
+		font-size: 1.3em;
+	}
+
 	.three_content {
-		left: 5%;
+		width: auto;
+	}
+
+	.stock {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }

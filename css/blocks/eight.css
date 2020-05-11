@@ -112,6 +112,14 @@
 	.eight_item {
 		padding-right: 20px;
 	}
+
+	.eight_item p {
+		width: auto;
+	}
+
+	.eight_item:nth-child(3) p {
+		width: auto;
+	}
 }
 
 @media(max-width: 375px) {
@@ -121,8 +129,8 @@
 		width: 150px;
 	}
 
-	.eight_item:nth-child(3) p {
-		width: 175px;
+	.pad {
+		padding-right: 0;
 	}
 
 	.headline h3:nth-child(1) {

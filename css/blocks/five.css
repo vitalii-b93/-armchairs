@@ -51,7 +51,6 @@
 
 	.five_icon_text h3 {
 		font-size: 0.9em;
-		padding-left: 10px;
 	}
 
 	.five_icon_text img {
@@ -59,14 +58,22 @@
 	}
 
 	.five_content img {
-		padding-top: 30px;
+	}
+
+	.five_content {
+		text-align: center;
 	}
 
 	.five_content p {
 		font-size: 0.7em;
-		width: 350px;
-		text-align: center;
+		width: auto;
+		
 		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.five_text {
+		width: auto;
 	}
 }
 

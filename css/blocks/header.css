@@ -31,8 +31,10 @@
 @media(max-width: 375px) {
 	.header-container {
 		flex-direction: column;
+		text-align: center;
 	}
-	.number p {
-		padding-top: 20px;
+
+	.number a {
+		padding-left: 0;
 	}
 }
