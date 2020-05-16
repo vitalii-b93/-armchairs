@@ -54,49 +54,49 @@
 .eight_row1 {
 	position: absolute;
 	top: 110px;
-	left: 400px;
+	left: 250px;
 }
 
 .eight_row2 {
 	position: absolute;
 	top: 210px;
-	left: 400px;
+	left: 250px;
 }
 
 .eight_row3 {
 	position: absolute;
 	top: 270px;
-	left: 400px;
+	left: 250px;
 }
 
 .eight_row4 {
 	position: absolute;
 	top: 325px;
-	left: 400px;
+	left: 250px;
 }
 
 .eight_row5 {
 	position: absolute;
 	top: 110px;
-	right: 400px;
+	right: 250px;
 }
 
 .eight_row6 {
 	position: absolute;
 	top: 210px;
-	right: 400px;
+	right: 250px;
 }
 
 .eight_row7 {
 	position: absolute;
 	top: 270px;
-	right: 400px;
+	right: 250px;
 }
 
 .eight_row8 {
 	position: absolute;
 	top: 325px;
-	right: 400px;
+	right: 250px;
 }
 
 @media(max-width: 576px) {

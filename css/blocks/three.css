@@ -8,7 +8,7 @@
 .price {
 	position: absolute;
 	top: 190px;
-	left: 40%;
+	left: 36%;
 	width: 155px;
 	text-align: center;
 	padding: 35px 0;
@@ -44,7 +44,7 @@
 .three_content {
 	position: absolute;
 	top: 65px;
-	right: 190px;
+	right: 0px;
 	width: 350px;
 }
 
@@ -106,8 +106,8 @@
 
 .three_arrow {
 	position: absolute;
-	bottom: 50px;
-	left: 45%;
+	top: 370px;
+	left: 47%;
 }
 
 @media(max-width: 992px) {
